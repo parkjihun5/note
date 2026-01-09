@@ -42,3 +42,37 @@ def solution(n):
         else:
             n = n * 3 + 1
     return answer
+
+---
+### 최소 동전 거스름돈
+
+1. first build
+
+def solution(change):
+    answer = 0
+    total = 0
+
+    total += change // 500
+    total += change % 500 // 100
+    total += change % 500 % 100 // 50 
+    total += change % 500 % 100 % 50 // 10
+    total += change % 500 % 100 % 50 % 10 // 5
+    total += change % 500 % 100 % 50 % 10 % 5 // 1
+
+    answer = total
+
+    return answer
+
+
+
+2. second build
+
+def solution(change):
+    answer = 0
+    coins = [500, 100 , 50, 10, 5, 1]
+
+    for coin in coins:
+        if change >= coin:
+            answer += (change // coin)
+            change -= (coin * (change // coin))
+    return answer
