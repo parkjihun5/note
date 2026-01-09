@@ -22,7 +22,51 @@ itertools 모듈은 효율적인 반복 작업을 위한 도구(순열, 조합 �
 
 
 
-### 팀 뽑기 프로그램
+## 팀 뽑기 프로그램
+---
+### 우선 랜덤으로 이름을 뽑아보기
+import random
+
+names = [
+    '루미나리스', '제피로스', '벨라트릭스', '카이로스', '아이테르', 
+    '엘라라', '노바', '실바누스', '오리온', '프리즘', 
+    '아르카나', '세레스티아', '볼텍스', '리비아', '이그니스', 
+    '네뷸라', '크로노', '솔라리스', '에코', '미스틱'
+]
+
+#팀을 5개로 나눠서 한 팀에 4명씩 랜덤으로 중복없이 들어가게 만들고 싶어
+random.shuffle(names)
+team1 = names[0:4]
+team2 = names[4:8]
+team3 = names[8:12]
+team4 = names[12:16]
+team5 = names[16:20]
+
+print(team1)
+print(team2)
+print(team3)
+print(team4)
+print(team5)
+
+---
+### 코드를 깔끔하게 만들어보기
+import random
+
+names = [
+    '루미나리스', '제피로스', '벨라트릭스', '카이로스', '아이테르', 
+    '엘라라', '노바', '실바누스', '오리온', '프리즘', 
+    '아르카나', '세레스티아', '볼텍스', '리비아', '이그니스', 
+    '네뷸라', '크로노', '솔라리스', '에코', '미스틱'
+]
+
+random.shuffle(names) #우선 랜덤으로 막 섞자
+team_size = 4 #몇명을 한 팀으로 묶을까?
+for i in range(0, len(names), team_size):
+    teams = names[i:i+team_size]
+    print(teams)
+
+---
+### 옵션을 더해보기
 import random
 
 names = [
