@@ -1,4 +1,4 @@
-# 🚀 Hun's Learning Archive
+# 🚀 Park Jihun's Learning Archive
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Learning%20Log&fontSize=80" />
@@ -8,11 +8,11 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
 ## 📌 Overview
-이 저장소는 백엔드 개발자를 꿈꾸는 **Hun**의 꾸준한 성장 기록 공간입니다.  
+안녕하세요. 백엔드 개발자를 꿈꾸는 **Park Jihun**의 꾸준한 성장 기록 공간입니다.  
 알고리즘 문제 풀이부터 프레임워크 학습 내용까지 체계적으로 정리하고 있습니다.
 
 ---
@@ -20,7 +20,7 @@
 ## 🛠 Tech Stack
 ### Back-end & Language
 <p>
-  <img src="https://skillicons.dev/icons?i=py,fastapi,mysql,github" />
+  <img src="https://skillicons.dev/icons?i=py,fastapi,github" />
 </p>
 
 ### Front-end & Learning
@@ -48,7 +48,7 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parkjihun5&show_icons=true&theme=radical" alt="Hun's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=parkjihun5&show_icons=true&theme=radical" alt="Park Jihun's GitHub Stats" />
 </p>
 
 <p align="center">
