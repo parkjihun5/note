@@ -18,14 +18,32 @@
 ---
 
 ## 🛠 Tech Stack
-### Back-end & Language
+
+### Skill Set
+
 <p>
-  <img src="https://skillicons.dev/icons?i=py,fastapi,github" />
+  <strong>&nbsp;&nbsp;Language&nbsp;&nbsp;</strong><br>
+  <img src="https://skillicons.dev/icons?i=py,js" />
 </p>
 
-### Front-end & Learning
 <p>
-  <img src="https://skillicons.dev/icons?i=react,js,vscode" />
+  <strong>&nbsp;&nbsp;Framework / Library&nbsp;&nbsp;</strong><br>
+  <img src="https://skillicons.dev/icons?i=fastapi,react" />
+</p>
+
+<p>
+  <strong>&nbsp;&nbsp;Database&nbsp;&nbsp;</strong><br>
+  <img src="https://skillicons.dev/icons?i=postgres" />
+</p>
+
+<p>
+  <strong>&nbsp;&nbsp;AI&nbsp;&nbsp;</strong><br>
+  &nbsp;&nbsp;&nbsp;LLM (Learning)
+</p>
+
+<p>
+  <strong>&nbsp;&nbsp;etc.&nbsp;&nbsp;</strong><br>
+  <img src="https://skillicons.dev/icons?i=git,github,nodejs,vscode" />
 </p>
 
 ---
