@@ -13,7 +13,7 @@ openai의 api key를 .env의 OPENAI_API_KEY에 등록하여 사용
 
 code
 ---
-
+```
 user_input = "아침 일찍 일어나는 습관의 장점에 대해 말해줘."
 
 personas = {
@@ -33,7 +33,7 @@ for name, prompt in personas.items():
     )
     print(response.choices[0].message.content)
     print("\n")
-
+```
 ---
 
 ### Temperature 비교
@@ -41,7 +41,7 @@ for name, prompt in personas.items():
 
 code
 ---
-
+```
 creative_topic = "운동화 브랜드의 새로운 슬로건을 5개 제안해줘. 단, '속도'나 '승리' 같은 뻔한 단어는 제외하고 아주 기발하게 작성해줘."
 temperatures = [0.3, 0.8, 1.0, 1.3, 1.5, 1.6, 1.8]
 
@@ -56,7 +56,7 @@ for t in temperatures:
     )
     print(response.choices[0].message.content)
     print("=" * 50)
-
+```
 ---
 
 ### messages 배열을 활용한 대화 맥락 유지 (Context Window)
@@ -64,7 +64,7 @@ Chat Completions API는 상태를 저장하지 않는(Stateless) 방식이므로
 
 code
 ---
-
+```
 def chat_without_memory(user_input):
     
     response = client.chat.completions.create(
@@ -83,7 +83,7 @@ print(f"A1: {chat_without_memory('내 이름은 XXX이야')}\n")
 
 print("Q2: 내 이름이 뭐라고?")
 print(f"A2: {chat_without_memory('내 이름이 뭐라고?')}")
-
+```
 ---
 
 ### Structured Outputs (구조화된 출력)
