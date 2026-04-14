@@ -38,13 +38,17 @@
 </p>
 
 <p>
-  <strong>&nbsp;&nbsp;AI&nbsp;&nbsp;</strong><br>
-  &nbsp;&nbsp;&nbsp;LLM (Learning)
+  <strong>&nbsp;&nbsp;AI & Data&nbsp;&nbsp;</strong><br>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
+  <img src="https://img.shields.io/badge/RAG-FF6F61?style=flat-square&logo=bookstack&logoColor=white">
+  <br>
+  &nbsp;&nbsp;&nbsp;• LLM (Learning)<br>
+  &nbsp;&nbsp;&nbsp;• LangChain & RAG Implementation
 </p>
 
 <p>
-  <strong>&nbsp;&nbsp;etc.&nbsp;&nbsp;</strong><br>
-  <img src="https://skillicons.dev/icons?i=git,github,nodejs,vscode" />
+  <strong>&nbsp;&nbsp;Tools & Environment&nbsp;&nbsp;</strong><br>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,nodejs,vscode" />
 </p>
 
 ---
@@ -57,21 +61,21 @@
 
 ### 2. Framework Study
 * **FastAPI:** 효율적인 비동기 API 서버 구축 학습
-* **React:** UI 구성 및 상태 관리(Zustand, Axios) 실습
+* **React:** UI 구성 및 상태 관리 실습 (Tailwind CSS 활용)
 
 ### 3. Certification & Course
-* **SeSAC AI Agent와 RAG를 활용한 생각하는 AI 서비스 개발자 양성과정** (Multicampus 주관) 참여 중 (~2026.05.20 종료 예정)
-* **CompTIA 정보처리기사** 자격증 대비 학습
+* **SeSAC AI Agent와 RAG를 활용한 AI 서비스 개발자 과정** (Multicampus 주관) 참여 중 (~2026.05.20)
+* **정보처리기사** 자격증 대비 학습
 
 ---
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parkjihun5&show_icons=true&theme=radical" alt="Park Jihun's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=parkjihun5&show_icons=true&theme=radical" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkjihun5&layout=compact&theme=vision-friendly-dark&hide=html" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parkjihun5&layout=compact&theme=vision-friendly-dark&hide=html" />
 </p>
 
 ---
@@ -82,5 +86,5 @@
 
 ---
 <p align="right">
-  Last Updated: 2026. 03. 20
+  Last Updated: 2026. 04. 14
 </p>
